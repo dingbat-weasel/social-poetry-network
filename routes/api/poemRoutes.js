@@ -7,7 +7,7 @@ const {
   deletePoem,
   createReaction,
   deleteReaction,
-} = require("../../controllers/poemControllers");
+} = require("../../controllers/poemController");
 
 router.route("/").get(getPoems).post(createPoem);
 

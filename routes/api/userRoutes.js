@@ -17,6 +17,4 @@ router.route("/:userId/friends").post(createFriend);
 
 router.route("/:userId/friends/:friendId").delete(deleteFriend);
 
-// These routes use functions that must be written and brought in from ./controllers
-
 module.exports = router;

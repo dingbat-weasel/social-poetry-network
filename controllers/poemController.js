@@ -1,4 +1,4 @@
-const { Poem, User } = requre("../models");
+const { Poem, User } = require("../models");
 
 module.exports = {
   async getPoems(req, res) {
