@@ -14,10 +14,10 @@ const userSchema = new Schema(
       required: true,
       match: /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/,
     },
-    thoughts: [
+    poems: [
       {
         type: Schema.Types.ObjectId,
-        ref: "thought",
+        ref: "poem",
       },
     ],
     friends: [
