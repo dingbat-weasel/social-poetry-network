@@ -67,6 +67,14 @@ const poems = [
   "Smear each side of a pork chop with mustard and dredge in flour",
   "A new program is being introduced by our government.",
   "I am a very cold person here.",
+  "We see so many different things when we look at the sky.",
+  "Male early in the day.",
+  "I could have screamed the day John proposed winterizing the cottage and living there permanently.",
+  "High density housing is going on all around us.",
+  "Winifred was a little relieved when they were gone.",
+  "Perhaps in our mad scramble to keep our heads above water we miss the point.",
+  "A mother is something we have all had.",
+  "One can only go so far without potatoes in the kitchen.",
 ];
 
 const possibleReactions = [

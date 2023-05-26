@@ -10,7 +10,7 @@ connection.once("open", async () => {
   await User.deleteMany({});
 
   const users = [];
-  const poems = getRandomPoems(10);
+  const poems = getRandomPoems(20);
 
   for (let i = 0; i < 20; i++) {
     const username = getRandomName();
@@ -18,6 +18,7 @@ connection.once("open", async () => {
     users.push({
       username,
       email: `${i}@email.com`,
+      poems: poems[i],
     });
   }
 
