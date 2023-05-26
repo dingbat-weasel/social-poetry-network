@@ -1,4 +1,3 @@
-const { findByIdAndRemove } = require("../models/Poem");
 const User = require("../models/User");
 
 module.exports = {
