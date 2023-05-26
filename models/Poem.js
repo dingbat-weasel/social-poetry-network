@@ -33,3 +33,7 @@ const poemSchema = new Schema(
 poemSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });
+
+const Poem = model("poem", poemSchema);
+
+module.exports = Poem;
