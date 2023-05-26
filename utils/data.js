@@ -86,14 +86,13 @@ const getRandomArrItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 // Gets a random full name
 const getRandomName = () =>
-  `${getRandomArrItem(names)} ${getRandomArrItem(names)}`;
+  `${getRandomArrItem(names)}${getRandomArrItem(names)}`;
 
 // Function to generate random poems that we can add to the database. Includes reactions.
 const getRandomPoems = (int) => {
   let results = [];
   for (let i = 0; i < int; i++) {
     results.push({
-      createdAt: Math.random() < 0.5,
       poemText: getRandomArrItem(poems),
       reactions: [...getReactions(3)],
     });
