@@ -1,9 +1,6 @@
 const { Schema, model } = require("mongoose");
 const Reaction = require("./Reaction");
-
-function formatDate(date) {
-  return date.toDateString();
-}
+const formatDate = require("../utils/helpers");
 
 const poemSchema = new Schema(
   {
