@@ -116,7 +116,7 @@ const getReactions = (int) => {
   let results = [];
   for (let i = 0; i < int; i++) {
     results.push({
-      responseBody: getRandomArrItem(possibleReactions),
+      reactionBody: getRandomArrItem(possibleReactions),
       username: getRandomName(),
     });
   }
